@@ -1,1 +1,1 @@
-# rails-challenges
+# Rails Challenges
