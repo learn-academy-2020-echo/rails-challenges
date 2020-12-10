@@ -15,5 +15,9 @@ Rails.application.routes.draw do
   get'/snowboarding' => 'home#snowboarding'
   get'/surfing' => 'home#surfing'
   get'/traveling' => 'home#traveling'
+  get'/number_cuber/:num1' => 'home#number_cuber'
+  get'/modpage/:num1/:num2' => 'home#modpage'
+  get'/character_count/:str1' => 'home#character_count'
+  get'/palindrome/:str1' => 'home#palindrome'
 
 end
