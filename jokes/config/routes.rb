@@ -1,3 +1,9 @@
 Rails.application.routes.draw do
- get '/home' => 'home#hello'
+ 
+ get '/answer' => 'home#answer'
+ get '/question' => 'home#question'
+ get '/' => 'home#landing'
+
+ root to: 'home#landing'
+
 end
