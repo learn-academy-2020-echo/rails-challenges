@@ -1,5 +1,5 @@
 class HomeController < ApplicationController
-    
+
     def landing
         # render 'landing.html.erb'
     end
@@ -33,5 +33,10 @@ class HomeController < ApplicationController
 
     def traveling
     end
-    
+
+    def number_cuber
+      @num1 = params [:num1]
+      @num2 = (@num1)^3
+    end
+
 end
