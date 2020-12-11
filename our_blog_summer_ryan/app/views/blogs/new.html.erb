@@ -1,0 +1,13 @@
+<center>
+<h1>Create a New Blog</h1>
+
+
+<%= form_with url: blogs_path, local:true do|form| %>
+<%= form.label :title %><br/>
+<%= form.text_field :title %><br/>
+<%= form.label :content %><br/>
+<%= form.text_field :content %><br/>
+<%= form.submit 'Add Blog' %>
+<% end %>
+</center>
+
